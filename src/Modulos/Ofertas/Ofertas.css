@@ -1,7 +1,7 @@
 main {
     position: relative;
     height: 600px;
-    background-image: url("C:\Users\nacho\Desktop\Posty\macumduda\public\Media\macumba.jpg");
+    background-image: url("/public/Media/macumba.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
