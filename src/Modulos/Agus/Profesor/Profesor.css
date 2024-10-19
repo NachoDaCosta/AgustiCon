@@ -1,0 +1,22 @@
+.profe{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 71, 191);
+    align-items: center;
+}
+
+.profe img{
+    height: 60%;
+}
+
+.bio{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    color: white;
+    gap: 20px;
+}

@@ -1,0 +1,24 @@
+.cliente{
+    height: 600px;
+    background-color: rgb(29, 29, 29);
+    display: grid;
+    grid-template-rows: 20% 35% 45%;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    text-align: center;
+    gap: 20px;
+}
+
+.cliente img{
+    height: 100%;
+    border-radius: 60px;
+}
+
+.texto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 20px;
+}

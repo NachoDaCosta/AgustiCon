@@ -1,0 +1,41 @@
+nav{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height:300px;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(44, 71, 191);
+}
+
+.nav-info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    width: 100%;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+.logo{
+    height: 150px;
+    border-radius: 70px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.wpp{
+    height: 25px;
+}

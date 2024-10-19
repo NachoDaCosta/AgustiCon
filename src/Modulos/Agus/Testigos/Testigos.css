@@ -1,0 +1,18 @@
+.trabajos-contenedor{
+    height: 500px;
+    background-color: rgb(44, 71, 191);
+    display: grid;
+    grid-template-rows: 20% 80%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}

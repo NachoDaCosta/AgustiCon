@@ -1,9 +1,10 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Modulos/Nav/Navbar";
-import Ofertas from "./Modulos/Ofertas/Ofertas";
-import Testigos from "./Modulos/Testigos/Testigos";
-import Footer from "./Modulos/footer/Footer";
+import Navbar from "./Modulos/Agus/Nav/Navbar";
+import Ofertas from "./Modulos/Agus/Ofertas/Ofertas";
+import Testigos from "./Modulos/Agus/Testigos/Testigos";
+import Footer from "./Modulos/Agus/footer/Footer";
+import Profesor from "./Modulos/Agus/Profesor/Profesor";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Ofertas />
       <Testigos />
       <Footer />
+      <Profesor />
     </div>
   );
 }
